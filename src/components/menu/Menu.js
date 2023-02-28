@@ -1,12 +1,16 @@
 import './Menu.scss'
 
-const Menu = ({menuOpen,setMenuOpen}) => {
-    function closeMenu(){
-        setMenuOpen(false)
-    }
+const Menu = ({menuOpen}) => {
+
   return (
-    <div className='menu'>
-      <h1>hello from Menu</h1>
+    <div className={'menu ' + (menuOpen && 'active')}>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#intro">Profolio</a></li>
+        <li><a href="#intro">TestMonios</a></li>
+        <li><a href="#intro">Works</a></li>
+        <li><a href="#intro">Contact</a></li>
+      </ul>
     </div>
   )
 }

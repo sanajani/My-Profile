@@ -1,31 +1,30 @@
-@import '../../global.scss';
+// @import '../../global.scss';
 
 
 .menu{
-    width: 300px;
+    // background-attachment:
+    z-index: 1;
+    background-color: purple;
+    // width: 350px;
+
+    width: 0;
     height: 100vh;
-    background-color: $mainColor;
     position: fixed;
     top: 0;
-    right: -300px;
-    z-index: 99;
+    right: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    transition: .5s ease;
+    transition: all .5s ease;
+    box-shadow: -3px -3px 3px grey;
 
     ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+        list-style: none;
+        font-size: 28px;
         color: white;
-        font-size: 30px;
-        font-weight: 300;
         width: 60%;
         li{
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             a{
                 text-decoration: none;
                 color: inherit;
@@ -36,6 +35,6 @@
         }
     }
     &.active{
-        right: 0;
+        width: 350px;
     }
 }
