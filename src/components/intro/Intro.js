@@ -5,7 +5,12 @@ const Intro = () => {
 
   return (
     <div className='intro' id='intro'>
-      <h1>Intro Section</h1>
+      <div className="container">
+        <div className="animation"></div>
+        <h2>Hello, I am</h2>
+        <h1>Sanaullah Mobini</h1>
+        <h3>Freelancer & <span>Developer</span></h3>
+      </div>
     </div>
   )
 }
