@@ -65,9 +65,10 @@ transition: all .5s ease;
                 
             }
         }
+           
     }
     &.active{
-        background-color: purple;
+        background-color: $bg70;
         .container{
             .logo{
                 h1{
@@ -81,4 +82,5 @@ transition: all .5s ease;
             }
         }
     }
+
 }

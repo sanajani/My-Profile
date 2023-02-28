@@ -17,7 +17,7 @@ const App = () => {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen}/>
       <div className="sections">
-      <Intro/>
+      <Intro menuOpen={menuOpen}/>
       <Profolio/>
       <Works/>
       <TestMonios/>

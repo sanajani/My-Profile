@@ -1,15 +1,19 @@
 import './Intro.scss'
 
-
-const Intro = () => {
+const Intro = ({ menuOpen }) => {
 
   return (
-    <div className='intro' id='intro'>
+    <div className={'intro ' + (menuOpen && 'active')} id='intro'>
       <div className="container">
-        <div className="animation"></div>
-        <h2>Hello, I am</h2>
+        <div className={"animation " + (menuOpen && 'active')}></div>
+        <h2><span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>, I am</h2>
         <h1>Sanaullah Mobini</h1>
         <h3>Freelancer & <span>Developer</span></h3>
+        <div className="arrowContainer" >
+          <a href="#profolio">
+          <img src="./assets/arrowdown.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   )
