@@ -19,6 +19,9 @@ transition: all .5s ease;
         height: inherit;
 
         .logo {
+            display: flex;
+            align-items: center;
+            // justify-content: center;
             h1{
                 color: black;
                 letter-spacing: 1px;
@@ -33,6 +36,7 @@ transition: all .5s ease;
                     }
                 }
             }
+            
         }
 
         .humbergar{
@@ -68,7 +72,7 @@ transition: all .5s ease;
            
     }
     &.active{
-        background-color: $bg70;
+        background-color: $color2;
         .container{
             .logo{
                 h1{

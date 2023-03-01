@@ -8,6 +8,7 @@ import Profolio from './components/profolio/Profolio'
 import Works from './components/works/Works'
 import TestMonios from './components/testmonios/TestMonios'
 import Menu from './components/menu/Menu'
+import Contact from './components/contact/Contact'
 
 
 const App = () => {
@@ -15,12 +16,13 @@ const App = () => {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
       <Intro menuOpen={menuOpen}/>
       <Profolio/>
       <Works/>
       <TestMonios/>
+      <Contact/>
       </div>
     </div>
   )

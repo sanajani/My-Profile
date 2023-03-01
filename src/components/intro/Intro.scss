@@ -17,7 +17,7 @@
             display: inline-block;
             width: fit-content;
             position: absolute;
-            bottom: 80px;
+            bottom: 30px;
             left: 50%;
             // animation: name duration timing-function delay iteration-count direction fill-mode;
             animation: arrowShow 3s ease infinite;
@@ -58,7 +58,9 @@
             border-radius: 50%;
             transition: all .5s ease;
             &.active{
-            background-color: $bg70;
+            // background-color: $bg70;
+            background-color: $color2;
+            box-shadow: 2px 3px 3px gray,-2px -3px 3px gray;
             }
         }
     }
