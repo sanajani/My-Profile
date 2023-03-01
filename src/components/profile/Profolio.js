@@ -3,7 +3,7 @@ import './Profolio.scss'
 const Profolio = () => {
   return (
     <div className='profolio' id='profolio'>
-      Profolio
+      <h1>Hello</h1>
     </div>
   )
 }
