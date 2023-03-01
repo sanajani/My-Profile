@@ -10,7 +10,7 @@ const Intro = ({ menuOpen }) => {
         <h1>Sanaullah Mobini</h1>
         <h3>Freelancer & <span>Developer</span></h3>
         <div className="arrowContainer" >
-          <a href="#profolio">
+          <a href="#work">
           <img src="./assets/arrowdown.png" alt="" />
           </a>
         </div>

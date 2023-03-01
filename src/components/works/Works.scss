@@ -1,3 +1,25 @@
-.works{
-    background-color: aqua;
+.work{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+
+    .container{
+        width: 100vw;
+        height: 90vh;       
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        h1{
+    border: 3px solid red;
+    // flex: 1;
+            margin-bottom: 30px;
+            font-size: 48px;
+        }
+        // background-color: tomato;
+    }
 }

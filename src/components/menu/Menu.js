@@ -10,7 +10,7 @@ const Menu = ({menuOpen,setMenuOpen}) => {
       <ul>
         <li onClick={closeMenu}><a href="#intro">Home</a></li>
         <li onClick={closeMenu}><a href="#profolio">Profolio</a></li>
-        <li onClick={closeMenu}><a href="#works">Works</a></li>
+        <li onClick={closeMenu}><a href="#work">Works</a></li>
         <li onClick={closeMenu}><a href="#testmonios">TestMonios</a></li>
         <li onClick={closeMenu}><a href="#contact">Contact</a></li>
       </ul>
