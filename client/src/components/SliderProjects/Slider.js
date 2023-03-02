@@ -25,6 +25,7 @@ const Slider = ({slides}) => {
 
   return (
     <div className='slider'>
+    {/* <div style={sliderContainerStyle} className="sliderContainer" loading='lazy'> */}
     <div style={sliderContainerStyle} className="sliderContainer">
       <h1>{slides[currentIndex].name}</h1>
       <p>{slides[currentIndex].title}</p>

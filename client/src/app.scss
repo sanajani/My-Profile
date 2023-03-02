@@ -5,7 +5,32 @@
 }
 
 .app{
+    position: relative;
     height: 100vh;
+    .btns{
+        position: absolute;
+        top: 50%;
+        right: 1%;
+        width: 100px;
+        transform: translateY(-50%);
+        text-align: center;
+        z-index: 200;
+        a{
+            width: 25px;
+            display: block;
+            span{
+                margin: 7px 0;
+                width: inherit;
+                height: 25px;
+                display: block;
+                border-radius: 50%;
+                background-color: rgb(133, 133, 133);
+                &.active{
+                background-color: rgb(77, 77, 77);
+                }
+            }
+        }
+    }
     .sections{
         width: 100vw;
         height: calc(100vh - 70px);

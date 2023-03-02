@@ -1,0 +1,154 @@
+.slider{
+    // position: relative;
+    // height: 100%;
+    width: 100vw;
+    padding: 20px 0;
+    .sliderContainer{
+        width: 700px;
+        height: 450px;
+        border-radius: 20px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        // margin-top: 80px;
+        // box-shadow: 3px 2px 4px gray,-3px -2px 4px gray;
+        box-shadow: 6px 8px 10px #959595, -5px -4px 10px #abaaaa;
+        position: relative;
+          
+        h1{
+            font-size: 1.9rem;
+            text-align: left;
+            border: none;
+            padding: 12px;
+            color: #333333;
+
+        }
+        p{
+            font-weight: 500;
+            font-size: 17px;
+            width: 80%;
+            text-align: left;
+            padding: 0 12px;
+            line-height: 1.5;
+        }
+            .preSlide{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                overflow: hidden;
+                img{
+                    animation: floating 5ms infinite ease;
+                }
+                cursor: pointer;
+            }
+            .nextSlide{
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                overflow: hidden;
+                img{
+                    animation: floating 5ms infinite ease;
+                }
+                right: 0;
+            }
+            @keyframes floating {
+                0%{
+                    transform: scale(.9);
+                }
+                50%{
+                    transform: scale(.1);
+                }
+                100%{
+                    transform: scale(1.2);
+                }
+            }
+        
+    }
+}
+
+
+
+
+
+// .slider{
+//     width: 100vw;
+//     padding: 20px 0;
+//     .sliderContainer{
+//         width: 700px;
+//         height: 450px;
+//         border-radius: 20px;
+//         background-position: center;
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         margin: 0 auto;
+//         box-shadow: 6px 8px 10px #959595, -5px -4px 10px #abaaaa;
+//         position: relative;
+//           .slide{
+//             background-color: red;
+//             display: none;
+//             overflow: hidden;
+//             opacity: 0;
+//             &.active{
+//                 display:block;
+//                 overflow: hidden;
+//                 opacity: 1;
+//                 width: 100%;
+//             img{
+//                 max-width: 90%;
+//                 background-size: cover;
+//                 background-position: center;
+//             }
+//             }
+//           }
+//         h1{
+//             font-size: 1.9rem;
+//             text-align: left;
+//             border: none;
+//             padding: 12px;
+//             color: #333333;
+
+//         }
+//         p{
+//             font-weight: 500;
+//             font-size: 17px;
+//             width: 80%;
+//             text-align: left;
+//             padding: 0 12px;
+//             line-height: 1.5;
+//         }
+//             .preSlide{
+//                 position: absolute;
+//                 top: 50%;
+//                 left: 0;
+//                 overflow: hidden;
+//                 img{
+//                     animation: floating 5ms infinite ease;
+//                 }
+//                 cursor: pointer;
+//             }
+//             .nextSlide{
+//                 cursor: pointer;
+//                 position: absolute;
+//                 top: 50%;
+//                 overflow: hidden;
+//                 img{
+//                     animation: floating 5ms infinite ease;
+//                 }
+//                 right: 0;
+//             }
+//             @keyframes floating {
+//                 0%{
+//                     transform: scale(.9);
+//                 }
+//                 50%{
+//                     transform: scale(.1);
+//                 }
+//                 100%{
+//                     transform: scale(1.2);
+//                 }
+//             }
+        
+//     }
+// }
+
