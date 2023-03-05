@@ -1,3 +1,5 @@
+@import './global.scss';
+
 *{
     margin: 0;
     padding: 0;
@@ -16,12 +18,12 @@
         text-align: center;
         z-index: 200;
         a{
-            width: 25px;
+            width: 18px;
             display: block;
             span{
                 margin: 7px 0;
                 width: inherit;
-                height: 25px;
+                height: 18px;
                 display: block;
                 border-radius: 50%;
                 background-color: rgb(133, 133, 133);

@@ -40,14 +40,13 @@ const App = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-      {/* <a href="/" style={{display:'block',width:'300px',height:'700px',background:'red'}}>Home</a> */}
-      <div className="btns">
+      {!menuOpen && <div className="btns">
         <a href="#intro"><span className='active'></span></a>
         <a href="#work"><span></span></a>
         <a href="#profolio"><span></span></a>
         <a href="#project"><span></span></a>
         <a href="#contact"><span></span></a>
-      </div>
+      </div>}
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
