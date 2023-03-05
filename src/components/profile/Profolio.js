@@ -6,13 +6,14 @@ const Profolio = () => {
       <div className="container">
         <div className="innerContainer">
         <div className="left">
-          <img src="./assets/img-1.jpg" alt="profile" />
+          <img src="./assets/profile.jpg" alt="profile" />
         </div>
         <div className="right">
-          <h1>Hello</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque vel modi ex, ad similique dolores illum id maiores. Dolorum, dolor.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque sequi, consectetur dolorem tempore necessitatibus ullam et?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi dolorum mollitia accusamus maxime dolorem officia ipsam ipsa est deserunt ab veniam fugiat autem, qui maiores quod aspernatur aperiam blanditiis. Mollitia, cumque ea distinctio earum porro quisquam omnis incidunt atque.</p>
+          <h1>Hi, I'm Sanaullah Mobini 👋</h1>
+          <p>I will help designers, small agencies and businesses bring their ideas to life. Powered</p>
+          <p>by Figma, VS Code and coffee, I turn your requirements into CMS-ified and</p>
+          <p>ecommerce-ified websites - on time and on budget.</p>
+          <p>Got any questions? <a href="#contact">Contact me</a></p>
         </div>
         </div>
       </div>

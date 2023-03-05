@@ -41,6 +41,14 @@
                     width: 80%;
                     line-height: 1.4;
                     margin: 12px 0;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        :hover{
+                            border-bottom: .5px solid grey;
+                        }
+                    }
                 }
             }
             img{
